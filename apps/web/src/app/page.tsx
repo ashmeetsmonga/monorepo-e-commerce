@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { Button, Card } from "ui";
+import HeroSection from "../components/HeroSection";
 
 export const metadata: Metadata = {
   title: "Web - Turborepo Example",
@@ -7,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 lg:p-3">
-      Home Page
+    <div className="flex w-full flex-col">
+      <HeroSection />
     </div>
   );
 }
