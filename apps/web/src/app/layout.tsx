@@ -22,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`min-h-screen overflow-x-hidden ${poppins.className}`}>
+      <body
+        className={`relative min-h-screen overflow-x-hidden ${poppins.className}`}
+      >
         <Navbar />
         {children}
       </body>

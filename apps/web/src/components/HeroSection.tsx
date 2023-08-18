@@ -3,18 +3,18 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="relative h-[30rem] w-full">
-      <div className="absolute left-0 top-0 h-full w-full">
+    <div className="relative mt-[5rem] h-[30rem] w-full">
+      <div className="absolute left-0 top-0 h-full w-full bg-black">
         <Image
           src="/images/hero.jpg"
           alt="hero"
           fill
           objectFit="cover"
-          className=""
+          className="opacity-70"
           priority
         />
       </div>
-      <div className="relative z-10 flex h-full flex-col justify-center p-10 text-4xl font-extrabold uppercase text-black">
+      <div className="relative z-10 flex h-full flex-col justify-center p-10 text-6xl font-extrabold uppercase text-white shadow-2xl">
         Stylist pick beats the heat
       </div>
     </div>
