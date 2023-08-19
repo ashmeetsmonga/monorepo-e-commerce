@@ -10,7 +10,7 @@ const HeroSection = () => {
           alt="hero"
           fill
           objectFit="cover"
-          className="opacity-70"
+          className="opacity-50"
           priority
         />
       </div>

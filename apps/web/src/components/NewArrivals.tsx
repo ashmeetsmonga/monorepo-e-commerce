@@ -7,12 +7,36 @@ const NewArrivals = () => {
       <h2 className="text-3xl font-semibold">Discover New Arrivals</h2>
       <p className="font-light">Recently added clothes!</p>
       <div className="mt-10 grid w-full grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-        <Card imgSrc="/images/product-1.jpg" />
-        <Card imgSrc="/images/product-1.jpg" />
-        <Card imgSrc="/images/product-1.jpg" />
-        <Card imgSrc="/images/product-1.jpg" />
-        <Card imgSrc="/images/product-1.jpg" />
-        <Card imgSrc="/images/product-1.jpg" />
+        <Card
+          title="Plain White Shirt"
+          price={500}
+          imgSrc="/images/product-1.jpg"
+        />
+        <Card
+          title="Yello Jumper"
+          price={2000}
+          imgSrc="/images/product-2.jpg"
+        />
+        <Card
+          title="Plain White Shirt"
+          price={500}
+          imgSrc="/images/product-1.jpg"
+        />
+        <Card
+          title="Yello Jumper"
+          price={2000}
+          imgSrc="/images/product-2.jpg"
+        />
+        <Card
+          title="Plain White Shirt"
+          price={500}
+          imgSrc="/images/product-1.jpg"
+        />
+        <Card
+          title="Yello Jumper"
+          price={2000}
+          imgSrc="/images/product-2.jpg"
+        />
       </div>
     </div>
   );
