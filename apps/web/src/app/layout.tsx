@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 // include styles from the ui package
-import "ui/styles.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "../components/Navbar";

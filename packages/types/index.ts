@@ -1,8 +1,6 @@
-// import { z } from "zod";
-
-// const PersonSchema = z.object({
-//   name: z.string(),
-//   age: z.number(),
-// });
-
-// export type Person = z.infer<typeof PersonSchema>;
+export type Product = {
+  title: string;
+  description: string;
+  imgUrl: string;
+  _id: string;
+};

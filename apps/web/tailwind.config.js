@@ -1,7 +1,11 @@
-// tailwind config is required for editor support
-
-const sharedConfig = require("tailwind-config/tailwind.config.js");
-
 module.exports = {
-  presets: [sharedConfig],
+  content: [
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "../../packages/ui/**/*{.js,.ts,.jsx,.tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };
