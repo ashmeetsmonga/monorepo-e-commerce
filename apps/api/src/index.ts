@@ -1,3 +1,4 @@
+import "express-async-errors";
 import { createServer } from "./server";
 
 const port = process.env.PORT || 5001;
