@@ -23,7 +23,8 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.3",
     "morgan": "^1.10.0",
-    "types": "*"
+    "types": "*",
+    "db": "*"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.0",

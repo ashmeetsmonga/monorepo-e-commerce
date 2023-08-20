@@ -14,3 +14,9 @@ export const createProduct = async (req: Request, res: Response) => {
   const product = await Product.create({ ...result.data });
   return res.status(200).json(product);
 };
+
+export const getSingleProduct = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const product = await Product.findById({ _id: id });
+  return res.status(200).json(product);
+};
